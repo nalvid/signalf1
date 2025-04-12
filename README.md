@@ -2,13 +2,20 @@
 
 The F1 racing data analysis.
 
-<img src="https://staticg.sportskeeda.com/editor/2023/01/1219b-16745356866745-1920.jpg" width="100%"/>
-
 ## Schedule
 
 <details>
+<summary>Season 2025</summary>
+</details>
+
+<details>
+<summary>Season 2024</summary>
+</details>
+
+<details>
+
 <summary>Season 2023</summary>
-  
+
 - [x] 1. Bahrain Grand Prix, Bahrain Bahrain International Circuit, Sakhir	5 March
 - [x] 2. Saudi Arabian Grand Prix, Saudi Arabia Jeddah Corniche Circuit, Jeddah	19 March
 - [x] 3. Australian Grand Prix,	Australia Albert Park Circuit, Melbourne	2 April
@@ -32,11 +39,6 @@ The F1 racing data analysis.
 - [ ] 21.	São Paulo Grand Prix,	Brazil Interlagos Circuit, São Paulo	5 November
 - [ ] 22.	Las Vegas Grand Prix,	United States Las Vegas Strip Circuit, Las Vegas, Nevada[b]	18 November
 - [ ] 23.	Abu Dhabi Grand Prix,	United Arab Emirates Yas Marina Circuit, Abu Dhabi	26 November
-
-</details>
-
-<details>
-<summary>Season 2022</summary>
 
 </details>
 
