@@ -5,7 +5,34 @@ The F1 racing data analysis.
 ## Schedule
 
 <details>
+
 <summary>Season 2025</summary>
+
+1. Australian Grand Prix
+2. Chinese Grand Prix
+3. Japanese Grand Prix
+4. Bahrain Grand Prix
+5. Saudi Arabian Grand Prix
+6. Miami Grand Prix
+7. Emilia Romagna Grand Prix
+8. Monaco Grand Prix
+9. Spanish Grand Prix
+10. Canadian Grand Prix
+11. Austrian Grand Prix
+12. British Grand Prix
+13. Belgian Grand Prix
+14. Hungarian Grand Prix
+15. Dutch Grand Prix
+16. Italian Grand Prix
+17. Azerbaijan Grand Prix
+18. Singapore Grand Prix
+19. United States Grand Prix
+20. Gran Premio de Mexico
+21. Sao Paulo Grand Prix
+22. Las Vegas Grand Prix
+23. Qatar Grand Prix
+24. Abu Dhabi Grand Prix
+
 </details>
 
 <details>
