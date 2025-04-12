@@ -1,15 +1,15 @@
-# F1 Telemetry Analytics
+# SignalF1
 
 - Install
 
     ```shell
-    python -m pip install -r requirements
+    python -m pip install .
     ```
 
 - Execute
 
     ```shell
-    ptyhon __main__
+    signalf1 <arguments>
     ```
 
 ## Resources

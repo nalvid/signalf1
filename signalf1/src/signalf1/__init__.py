@@ -176,6 +176,9 @@ Live Timing Data Object
 
 """
 
+__version__ = "0.2.0"
 
+__all__ = ["SignalF1", "LiveTimingData"]
+
+from ._client import SignalRClient as SignalF1
 from ._data import LiveTimingData as LiveTimingData
-from ._client import SignalRClient as SignalRClient
