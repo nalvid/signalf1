@@ -12,6 +12,7 @@ import concurrent.futures
 import datetime
 import json
 import logging
+import sys
 import time
 from collections.abc import Iterable
 from json import dumps, loads
@@ -147,7 +148,7 @@ class WebSocketParameters:
 
   @staticmethod
   def _format_url(url, action, query):
-    return "{url}/{action}?{query}".format(url=url, action=action, query=query)
+    return f"{url}/{action}?{query}"
 
   def _negotiate(self):
     if self.session is None:
@@ -239,7 +240,7 @@ class HubClient:
       messages = data["M"] if "M" in data and len(data["M"]) > 0 else {}
       for inner_data in messages:
         hub = inner_data["H"] if "H" in inner_data else ""
-        if hub.lower() == self.name.lower():
+        if hub.lower() == self.name().lower():
           method = inner_data["M"]
           message = inner_data["A"]
           await self._handlers[method](message)
@@ -326,7 +327,7 @@ class Connection:
 
 
 def messages_from_raw(records: Iterable):
-  """Extract data from the recorded SignalR message.
+  """Extract data from the recorded SignalR message received from F1 Live Timing server.
 
   This function can be used to extract message data from raw SignalR data
   which was saved using :class:`SignalRClient` in debug mode.
@@ -351,6 +352,30 @@ def messages_from_raw(records: Iterable):
         result.append(message)
 
   return result, error_count
+
+
+class ColorFormatter(logging.Formatter):
+  COLORS = {
+    "HEADER": "\033[95m",
+    "OKBLUE": "\033[94m",
+    "OKCYAN": "\033[96m",
+    "OKGREEN": "\033[92m",
+    "WARNING": "\033[93m",
+    "FAIL": "\033[91m",
+    "ENDC": "\033[0m",
+    "BOLD": "\033[1m",
+    "UNDERLINE": "\033[4m",
+  }
+
+  def format(self, record):
+    msg = super().format(record)
+    if record.levelno == logging.INFO:
+      return f"{self.COLORS['OKGREEN']}{msg}{self.COLORS['ENDC']}"
+    elif record.levelno == logging.WARNING:
+      return f"{self.COLORS['WARNING']}{msg}{self.COLORS['ENDC']}"
+    elif record.levelno == logging.ERROR:
+      return f"{self.COLORS['FAIL']}{msg}{self.COLORS['ENDC']}"
+    return msg
 
 
 class SignalRClient:
@@ -420,25 +445,45 @@ class SignalRClient:
     self.debug = debug
     self.filename = file_name
     self.filemode = file_mode
-    self.timeout = timeout
+    self.timeout = 0  # Never timeout
     self._connection = None
 
     if not logger:
-      logging.basicConfig(format="%(asctime)s - %(levelname)s: %(message)s")
       self.logger = logging.getLogger("SignalR")
       self.logger.setLevel(logging.INFO)
+      self.logger.handlers.clear()
+      # File handler
+      file_handler = logging.FileHandler(file_name + ".log")
+      file_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s: %(message)s"))
+      self.logger.addHandler(file_handler)
+      # Console handler with color
+      console_handler = logging.StreamHandler(sys.stdout)
+      console_handler.setFormatter(ColorFormatter("%(asctime)s - %(levelname)s: %(message)s"))
+      self.logger.addHandler(console_handler)
     else:
       self.logger = logger
 
     self._output_file = None
     self._t_last_message = None
+    self._last_server_message = None  # Store last server message
 
   def _to_file(self, message: str):
+    self._last_server_message = message  # Store last message
     if self.filename is None:
       print(message)
     else:
-      self._output_file.write(str(datetime.datetime.now(tz=datetime.UTC)) + "," + message + "\n")
+      log_line = str(datetime.datetime.now(tz=datetime.UTC)) + "," + message + "\n"
+      self._output_file.write(log_line)
       self._output_file.flush()
+      # Print colored to stdout (only for real data/events)
+      try:
+        import json
+
+        data = json.loads(message)
+        # Only colorize if it's a real event/data (not a log line)
+        print(f"\033[96m[DATA] {message}\033[0m")
+      except Exception:
+        pass
 
   async def _on_do_nothing(self, msg):
     # just do nothing with the message; intended for debug mode where some
@@ -455,15 +500,36 @@ class SignalRClient:
       self.logger.exception("Exception while writing message to file")
 
   async def _on_debug(self, **data):
-    if "M" in data and len(data["M"]) > 0:
-      self._t_last_message = time.time()
+    while True:
+      if self.timeout != 0 and time.time() - self._t_last_message > self.timeout:
+        self.logger.warning(f"Timeout - received no data for more than {self.timeout} seconds!")
 
-    loop = asyncio.get_running_loop()
-    try:
-      with concurrent.futures.ThreadPoolExecutor() as pool:
-        await loop.run_in_executor(pool, self._to_file, str(data))
-    except Exception:
-      self.logger.exception("Exception while writing message to file")
+        self._connection.close()
+        while self._connection.started:
+          await asyncio.sleep(0.1)
+        return
+
+      await asyncio.sleep(1)
+
+  async def _supervise(self):
+    self._t_last_message = time.time()
+    while True:
+      if self.timeout != 0 and time.time() - self._t_last_message > self.timeout:
+        self.logger.warning(f"Timeout - received no data for more than {self.timeout} seconds!")
+        self._connection.close()
+        while self._connection.started:
+          await asyncio.sleep(0.1)
+        return
+      await asyncio.sleep(1)
+
+  async def _async_start(self):
+    self.logger.info("Starting FastF1 live timing client VERSION]")
+    await asyncio.gather(
+      asyncio.create_task(self._supervise()),
+      asyncio.create_task(self._run()),
+    )
+    self._output_file.close()
+    self.logger.warning("Exiting...")
 
   async def _run(self):
     if self.filename is not None:
@@ -491,30 +557,18 @@ class SignalRClient:
 
     # Start the client
     loop = asyncio.get_event_loop()
-    with concurrent.futures.ThreadPoolExecutor() as pool:
-      await loop.run_in_executor(pool, self._connection.start)
-
-  async def _supervise(self):
-    self._t_last_message = time.time()
-    while True:
-      if self.timeout != 0 and time.time() - self._t_last_message > self.timeout:
-        self.logger.warning(f"Timeout - received no data for more than {self.timeout} seconds!")
-
-        self._connection.close()
-        while self._connection.started:
-          await asyncio.sleep(0.1)
-        return
-
-      await asyncio.sleep(1)
-
-  async def _async_start(self):
-    self.logger.info(f"Starting FastF1 live timing client VERSION]")
-    await asyncio.gather(
-      asyncio.ensure_future(self._supervise()),
-      asyncio.ensure_future(self._run()),
-    )
-    self._output_file.close()
-    self.logger.warning("Exiting...")
+    try:
+      with concurrent.futures.ThreadPoolExecutor() as pool:
+        await loop.run_in_executor(pool, self._connection.start)
+    except Exception as e:
+      self.logger.error(f"Exception in SignalR connection: {e}", exc_info=True)
+    finally:
+      if self._last_server_message:
+        self.logger.info(f"Last server message before disconnect: {self._last_server_message}")
+      if self._connection and not self._connection.started:
+        self.logger.info("SignalR connection closed by server or finished.")
+      else:
+        self.logger.info("SignalR client _run finished for unknown reason.")
 
   def start(self):
     """Connect to the data stream and start writing the data to a file."""

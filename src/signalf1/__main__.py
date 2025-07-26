@@ -70,6 +70,7 @@ args.func(args)  # call function associated with subparser
 """
 
 import logging
+from datetime import datetime
 
 from signalf1 import SignalF1
 
@@ -77,6 +78,6 @@ from signalf1 import SignalF1
 def main(args=None) -> None:
   logger = logging.getLogger()
   logger.setLevel(logging.DEBUG)
-
-  client = SignalF1(file_name="./bahrain_practice_3_2025-04-12.log", debug=False)
+  timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+  client = SignalF1(file_name=f"./data/raw/{timestamp}.log", debug=False)
   client.start()
