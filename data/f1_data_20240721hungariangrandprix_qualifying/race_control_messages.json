@@ -1,0 +1,332 @@
+{
+  "Messages": [
+    {
+      "Utc": "2024-07-20T13:47:11",
+      "Category": "Other",
+      "Message": "WET TRACK"
+    },
+    {
+      "Utc": "2024-07-20T13:47:19",
+      "Category": "Other",
+      "Message": "CHANGE IN CLIMATIC CONDITIONS"
+    },
+    {
+      "Utc": "2024-07-20T13:47:24",
+      "Category": "Other",
+      "Message": "LOW GRIP CONDITIONS"
+    },
+    {
+      "Utc": "2024-07-20T13:59:13",
+      "Category": "Other",
+      "Message": "NORMAL GRIP CONDITIONS"
+    },
+    {
+      "Utc": "2024-07-20T14:00:00",
+      "Category": "Flag",
+      "Flag": "GREEN",
+      "Scope": "Track",
+      "Message": "GREEN LIGHT - PIT EXIT OPEN"
+    },
+    {
+      "Utc": "2024-07-20T14:05:54",
+      "Category": "Flag",
+      "Flag": "YELLOW",
+      "Scope": "Sector",
+      "Sector": 3,
+      "Message": "YELLOW IN TRACK SECTOR 3"
+    },
+    {
+      "Utc": "2024-07-20T14:05:56",
+      "Category": "Other",
+      "Message": "DRS DISABLED IN ZONE 1"
+    },
+    {
+      "Utc": "2024-07-20T14:05:56",
+      "Category": "Other",
+      "Message": "DRS DISABLED IN ZONE 2"
+    },
+    {
+      "Utc": "2024-07-20T14:06:12",
+      "Category": "Other",
+      "Message": "DRS ENABLED IN ZONE 1"
+    },
+    {
+      "Utc": "2024-07-20T14:06:12",
+      "Category": "Other",
+      "Message": "DRS ENABLED IN ZONE 2"
+    },
+    {
+      "Utc": "2024-07-20T14:06:12",
+      "Category": "Flag",
+      "Flag": "CLEAR",
+      "Scope": "Sector",
+      "Sector": 3,
+      "Message": "CLEAR IN TRACK SECTOR 3"
+    },
+    {
+      "Utc": "2024-07-20T14:08:20",
+      "Category": "Other",
+      "Message": "CAR 2 (SAR) LAP DELETED - TRACK LIMITS AT TURN 1 LAP 5 16:06:16 (PIT)"
+    },
+    {
+      "Utc": "2024-07-20T14:11:08",
+      "Category": "Flag",
+      "Flag": "YELLOW",
+      "Scope": "Sector",
+      "Sector": 11,
+      "Message": "YELLOW IN TRACK SECTOR 11"
+    },
+    {
+      "Utc": "2024-07-20T14:11:16",
+      "Category": "Flag",
+      "Flag": "RED",
+      "Scope": "Track",
+      "Message": "RED FLAG"
+    },
+    {
+      "Utc": "2024-07-20T14:11:16",
+      "Category": "Flag",
+      "Flag": "CLEAR",
+      "Scope": "Sector",
+      "Sector": 11,
+      "Message": "CLEAR IN TRACK SECTOR 11"
+    },
+    {
+      "Utc": "2024-07-20T14:11:30",
+      "Category": "Other",
+      "Message": "MEDICAL CAR DEPLOYED"
+    },
+    {
+      "Utc": "2024-07-20T14:12:04",
+      "Category": "Other",
+      "Message": "CAR 63 (RUS) LAP DELETED - TRACK LIMITS AT TURN 8 LAP 6 16:09:26"
+    },
+    {
+      "Utc": "2024-07-20T14:14:38",
+      "Category": "Other",
+      "Message": "LOW GRIP CONDITIONS"
+    },
+    {
+      "Utc": "2024-07-20T14:14:51",
+      "Category": "Drs",
+      "Status": "DISABLED",
+      "Message": "DRS DISABLED"
+    },
+    {
+      "Utc": "2024-07-20T14:18:38",
+      "Category": "Other",
+      "Message": "Q1 WILL RESUME AT 16:22"
+    },
+    {
+      "Utc": "2024-07-20T14:18:52",
+      "Category": "Flag",
+      "Flag": "CLEAR",
+      "Scope": "Track",
+      "Message": "TRACK CLEAR"
+    },
+    {
+      "Utc": "2024-07-20T14:22:00",
+      "Category": "Flag",
+      "Flag": "GREEN",
+      "Scope": "Track",
+      "Message": "GREEN LIGHT - PIT EXIT OPEN"
+    },
+    {
+      "Utc": "2024-07-20T14:28:45",
+      "Category": "Flag",
+      "Flag": "CHEQUERED",
+      "Scope": "Track",
+      "Message": "CHEQUERED FLAG"
+    },
+    {
+      "Utc": "2024-07-20T14:28:57",
+      "Category": "Other",
+      "Message": "FIRST CAR TO TAKE THE FLAG - CAR 14 (ALO)"
+    },
+    {
+      "Utc": "2024-07-20T14:31:28",
+      "Category": "Other",
+      "Message": "Q2 WILL START AT 16:36"
+    },
+    {
+      "Utc": "2024-07-20T14:31:50",
+      "Category": "Other",
+      "Message": "NORMAL GRIP CONDITIONS"
+    },
+    {
+      "Utc": "2024-07-20T14:31:52",
+      "Category": "Drs",
+      "Status": "ENABLED",
+      "Message": "DRS ENABLED"
+    },
+    {
+      "Utc": "2024-07-20T14:36:00",
+      "Category": "Flag",
+      "Flag": "GREEN",
+      "Scope": "Track",
+      "Message": "GREEN LIGHT - PIT EXIT OPEN"
+    },
+    {
+      "Utc": "2024-07-20T14:42:01",
+      "Category": "Other",
+      "Message": "TRACK SURFACE SLIPPERY IN TRACK SECTOR 9"
+    },
+    {
+      "Utc": "2024-07-20T14:42:02",
+      "Category": "Flag",
+      "Flag": "CLEAR",
+      "Scope": "Sector",
+      "Sector": 9,
+      "Message": "CLEAR IN TRACK SECTOR 9"
+    },
+    {
+      "Utc": "2024-07-20T14:51:00",
+      "Category": "Flag",
+      "Flag": "CHEQUERED",
+      "Scope": "Track",
+      "Message": "CHEQUERED FLAG"
+    },
+    {
+      "Utc": "2024-07-20T14:51:20",
+      "Category": "Other",
+      "Message": "FIRST CAR TO TAKE THE FLAG - CAR 14 (ALO)"
+    },
+    {
+      "Utc": "2024-07-20T14:51:50",
+      "Category": "Other",
+      "Message": "CAR 44 (HAM) LAP DELETED - TRACK LIMITS AT TURN 12 LAP 16 16:51:21"
+    },
+    {
+      "Utc": "2024-07-20T14:53:35",
+      "Category": "Other",
+      "Message": "Q3 WILL START AT 16:59"
+    },
+    {
+      "Utc": "2024-07-20T14:54:02",
+      "Category": "Other",
+      "Message": "FIA STEWARDS: Q2 INCIDENT INVOLVING CAR 23 (ALB) NOTED - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS - MAXIMUM DELTA TIME"
+    },
+    {
+      "Utc": "2024-07-20T14:54:16",
+      "Category": "Other",
+      "Message": "FIA STEWARDS: Q2 INCIDENT INVOLVING CAR 23 (ALB) WILL BE INVESTIGATED AFTER THE SESSION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS - MAXIMUM DELTA TIME"
+    },
+    {
+      "Utc": "2024-07-20T14:59:00",
+      "Category": "Flag",
+      "Flag": "GREEN",
+      "Scope": "Track",
+      "Message": "GREEN LIGHT - PIT EXIT OPEN"
+    },
+    {
+      "Utc": "2024-07-20T15:08:36",
+      "Category": "Flag",
+      "Flag": "DOUBLE YELLOW",
+      "Scope": "Sector",
+      "Sector": 9,
+      "Message": "DOUBLE YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "Utc": "2024-07-20T15:08:37",
+      "Category": "Flag",
+      "Flag": "DOUBLE YELLOW",
+      "Scope": "Sector",
+      "Sector": 10,
+      "Message": "DOUBLE YELLOW IN TRACK SECTOR 10"
+    },
+    {
+      "Utc": "2024-07-20T15:08:40",
+      "Category": "Flag",
+      "Flag": "YELLOW",
+      "Scope": "Sector",
+      "Sector": 9,
+      "Message": "YELLOW IN TRACK SECTOR 9"
+    },
+    {
+      "Utc": "2024-07-20T15:08:48",
+      "Category": "Flag",
+      "Flag": "RED",
+      "Scope": "Track",
+      "Message": "RED FLAG"
+    },
+    {
+      "Utc": "2024-07-20T15:08:48",
+      "Category": "Flag",
+      "Flag": "CLEAR",
+      "Scope": "Sector",
+      "Sector": 9,
+      "Message": "CLEAR IN TRACK SECTOR 9"
+    },
+    {
+      "Utc": "2024-07-20T15:08:48",
+      "Category": "Flag",
+      "Flag": "CLEAR",
+      "Scope": "Sector",
+      "Sector": 10,
+      "Message": "CLEAR IN TRACK SECTOR 10"
+    },
+    {
+      "Utc": "2024-07-20T15:09:07",
+      "Category": "Other",
+      "Message": "MEDICAL CAR DEPLOYED"
+    },
+    {
+      "Utc": "2024-07-20T15:17:50",
+      "Category": "Flag",
+      "Flag": "CLEAR",
+      "Scope": "Track",
+      "Message": "TRACK CLEAR"
+    },
+    {
+      "Utc": "2024-07-20T15:18:07",
+      "Category": "Other",
+      "Message": "Q3 WILL RESUME AT 17:21"
+    },
+    {
+      "Utc": "2024-07-20T15:18:11",
+      "Category": "Drs",
+      "Status": "ENABLED",
+      "Message": "DRS ENABLED"
+    },
+    {
+      "Utc": "2024-07-20T15:21:00",
+      "Category": "Flag",
+      "Flag": "GREEN",
+      "Scope": "Track",
+      "Message": "GREEN LIGHT - PIT EXIT OPEN"
+    },
+    {
+      "Utc": "2024-07-20T15:23:13",
+      "Category": "Flag",
+      "Flag": "CHEQUERED",
+      "Scope": "Track",
+      "Message": "CHEQUERED FLAG"
+    },
+    {
+      "Utc": "2024-07-20T15:24:14",
+      "Category": "Other",
+      "Message": "FIRST CAR TO TAKE THE FLAG - CAR 44 (HAM)"
+    },
+    {
+      "Utc": "2024-07-20T15:26:51",
+      "Category": "Other",
+      "Message": "FIA STEWARDS: Q3 INCIDENT INVOLVING CARS 18 (STR), 3 (RIC) NOTED - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS - MAXIMUM DELTA TIME"
+    },
+    {
+      "Utc": "2024-07-20T15:27:01",
+      "Category": "Other",
+      "Message": "FIA STEWARDS: Q3 INCIDENT INVOLVING CARS 18 (STR), 3 (RIC) WILL BE INVESTIGATED AFTER THE SESSION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS - MAXIMUM DELTA TIME"
+    },
+    {
+      "Utc": "2024-07-20T15:27:13",
+      "Category": "Other",
+      "Message": "FIA STEWARDS: Q2 INCIDENT INVOLVING CAR 23 (ALB) NO FURTHER ACTION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS - MAXIMUM DELTA TIME"
+    },
+    {
+      "Utc": "2024-07-20T15:27:25",
+      "Category": "Other",
+      "Message": "FIA STEWARDS: Q3 INCIDENT INVOLVING CARS 18 (STR), 3 (RIC) NO FURTHER ACTION - FAILING TO FOLLOW RACE DIRECTORS INSTRUCTIONS - MAXIMUM DELTA TIME"
+    }
+  ],
+  "_timestamp": "﻿"
+}

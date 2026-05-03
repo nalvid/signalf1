@@ -1,0 +1,119 @@
+{
+  "Series": [
+    {
+      "Utc": "2024-07-20T13:45:25.277Z",
+      "QualifyingPart": 1
+    },
+    {
+      "Utc": "2024-07-20T14:33:59.849Z",
+      "QualifyingPart": 2
+    },
+    {
+      "Utc": "2024-07-20T14:57:05.771Z",
+      "QualifyingPart": 3
+    }
+  ],
+  "StatusSeries": [
+    {
+      "Utc": "2024-07-20T13:40:25.937Z",
+      "TrackStatus": "AllClear"
+    },
+    {
+      "Utc": "2024-07-20T14:00:00.064Z",
+      "SessionStatus": "Started"
+    },
+    {
+      "Utc": "2024-07-20T14:05:54.54Z",
+      "TrackStatus": "Yellow"
+    },
+    {
+      "Utc": "2024-07-20T14:06:11.642Z",
+      "TrackStatus": "AllClear"
+    },
+    {
+      "Utc": "2024-07-20T14:11:08.248Z",
+      "TrackStatus": "Yellow"
+    },
+    {
+      "Utc": "2024-07-20T14:11:16.03Z",
+      "SessionStatus": "Aborted"
+    },
+    {
+      "Utc": "2024-07-20T14:11:16.271Z",
+      "TrackStatus": "Red"
+    },
+    {
+      "Utc": "2024-07-20T14:18:52.269Z",
+      "TrackStatus": "AllClear"
+    },
+    {
+      "Utc": "2024-07-20T14:19:03.123Z",
+      "SessionStatus": "Inactive"
+    },
+    {
+      "Utc": "2024-07-20T14:22:00.123Z",
+      "SessionStatus": "Started"
+    },
+    {
+      "Utc": "2024-07-20T14:28:45.053Z",
+      "SessionStatus": "Finished"
+    },
+    {
+      "Utc": "2024-07-20T14:34:10.302Z",
+      "SessionStatus": "Inactive"
+    },
+    {
+      "Utc": "2024-07-20T14:36:00.096Z",
+      "SessionStatus": "Started"
+    },
+    {
+      "Utc": "2024-07-20T14:51:00.063Z",
+      "SessionStatus": "Finished"
+    },
+    {
+      "Utc": "2024-07-20T14:57:13.112Z",
+      "SessionStatus": "Inactive"
+    },
+    {
+      "Utc": "2024-07-20T14:59:00.092Z",
+      "SessionStatus": "Started"
+    },
+    {
+      "Utc": "2024-07-20T15:08:35.733Z",
+      "TrackStatus": "Yellow"
+    },
+    {
+      "Utc": "2024-07-20T15:08:47.736Z",
+      "SessionStatus": "Aborted"
+    },
+    {
+      "Utc": "2024-07-20T15:08:47.934Z",
+      "TrackStatus": "Red"
+    },
+    {
+      "Utc": "2024-07-20T15:17:50.625Z",
+      "TrackStatus": "AllClear"
+    },
+    {
+      "Utc": "2024-07-20T15:18:16.336Z",
+      "SessionStatus": "Inactive"
+    },
+    {
+      "Utc": "2024-07-20T15:21:00.07Z",
+      "SessionStatus": "Started"
+    },
+    {
+      "Utc": "2024-07-20T15:23:13.065Z",
+      "SessionStatus": "Finished"
+    },
+    {
+      "Utc": "2024-07-20T15:30:04.444Z",
+      "SessionStatus": "Finalised"
+    },
+    {
+      "Utc": "2024-07-20T15:30:05.651Z",
+      "SessionStatus": "Ends"
+    }
+  ],
+  "_timestamp": "﻿"
+}

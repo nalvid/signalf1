@@ -1,0 +1,25 @@
+{
+  "download_info": {
+    "timestamp": "2025-08-02T17:32:31.762376",
+    "year": 2024,
+    "meeting_path": "2024-07-21_Hungarian_Grand_Prix",
+    "session_path": "2024-07-20_Qualifying",
+    "base_url": "https://livetiming.formula1.com/static/2024/2024-07-21_Hungarian_Grand_Prix/2024-07-20_Qualifying",
+    "successful_downloads": 12,
+    "total_endpoints": 16
+  },
+  "downloaded_files": [
+    "timing_data",
+    "session_info",
+    "session_data",
+    "session_status",
+    "driver_list",
+    "track_status",
+    "weather_data",
+    "weather_series",
+    "current_tyres",
+    "tyre_stints",
+    "team_radio",
+    "race_control_messages"
+  ]
+}

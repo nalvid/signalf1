@@ -1,0 +1,85 @@
+{
+  "Tyres": {
+    "1": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "2": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "3": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "4": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "10": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "11": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "14": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "16": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "18": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "20": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "22": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "23": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "24": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "27": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "31": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "44": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "55": {
+      "Compound": "SOFT",
+      "New": false
+    },
+    "63": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "77": {
+      "Compound": "SOFT",
+      "New": true
+    },
+    "81": {
+      "Compound": "SOFT",
+      "New": false
+    }
+  },
+  "_timestamp": "﻿"
+}

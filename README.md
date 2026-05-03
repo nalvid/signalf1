@@ -1,19 +1,19 @@
 # SignalF1
 
-SignalF1 is a Python package for working with F1 telemetry data, including tools for command-line processing and running a server.
+SignalF1 is a Python package for recording and processing F1 live timing telemetry data.
 
 ## Installation
 
 Install the latest version from the GitHub main branch:
 
 ```shell
-python -m pip install git+https://github.com/4e1e0603/signalf1.git@main#egg=signalf1&subdirectory=signal1
+python -m pip install git+https://github.com/4e1e0603/signalf1.git@main#egg=signalf1
 ```
 
 To install a specific tagged version:
 
 ```shell
-python -m pip install git+https://github.com/4e1e0603/signalf1.git@<TAG>#egg=signalf1&subdirectory=signal1
+python -m pip install git+https://github.com/4e1e0603/signalf1.git@<TAG>#egg=signalf1
 ```
 
 ## Usage
@@ -24,7 +24,10 @@ Run the command line script:
 signalf1 <arguments>
 ```
 
-Or start the server:
+By default, telemetry data is written to stdout and application logs go to stderr.
+Use `-o <path>` if you want to persist telemetry data to a file.
+
+To run the package module directly:
 
 ```shell
 python -m signalf1 <arguments>
@@ -51,3 +54,4 @@ uv pip install -e . -r requirements.txt
 - <https://www.bbc.com/sport/formula1>
 - <https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship>
 - <https://twitter.com/f1dataanalysis>
+- <https://github.com/f1db/f1db>

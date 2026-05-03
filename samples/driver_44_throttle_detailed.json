@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": "2025-08-02T12:34:40.171000",
+    "utc_timestamp": "2025-08-02T10:34:36.5460676Z",
+    "throttle_percent": 104,
+    "speed_kmh": 0,
+    "rpm": 2009,
+    "gear": 0,
+    "brake_percent": 104,
+    "drs_status": 8
+  },
+  {
+    "timestamp": "2025-08-02T12:34:40.171000",
+    "utc_timestamp": "2025-08-02T10:34:36.9460078Z",
+    "throttle_percent": 104,
+    "speed_kmh": 0,
+    "rpm": 2009,
+    "gear": 0,
+    "brake_percent": 104,
+    "drs_status": 8
+  },
+  {
+    "timestamp": "2025-08-02T12:34:40.171000",
+    "utc_timestamp": "2025-08-02T10:34:37.3069548Z",
+    "throttle_percent": 104,
+    "speed_kmh": 0,
+    "rpm": 2009,
+    "gear": 0,
+    "brake_percent": 104,
+    "drs_status": 8
+  }
+]

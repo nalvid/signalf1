@@ -1,83 +1,26 @@
-"""
-Demonstrates the usage of the SignalRClient
-
 import argparse
-import sys
-
-from .livetiming.client import (
-    SignalRClient,
-    messages_from_raw
-)
-
-
-def save(args):
-    mode = 'a' if args.append else 'w'
-    client = SignalRClient(args.file, filemode=mode, debug=args.debug,
-                           timeout=args.timeout)
-    client.start()
-
-
-def convert(args):
-    with open(args.input) as infile:
-        messages = infile.readlines()
-    data, ec = messages_from_raw(messages)
-    with open(args.output, 'w') as outfile:
-        for elem in data:
-            outfile.write(str(elem)+'\n')
-    print(f"Completed with {ec} error(s)")
-
-
-parser = argparse.ArgumentParser(
-    prog="python -m fastf1.livetiming",
-    description="Save live timing data during a session",
-    formatter_class=argparse.ArgumentDefaultsHelpFormatter
-)
-
-subparsers = parser.add_subparsers()
-
-rec_parser = subparsers.add_parser(
-    'save', help='Save live timing data'
-)
-conv_parser = subparsers.add_parser(
-    'extract', help='Extract messages from saved debug-mode data'
-)
-
-rec_parser.add_argument('file', type=str, help='Output file name')
-rec_parser.add_argument('--append', action='store_true', default=False,
-                        help="Append to output file. By default the file is "
-                             "overwritten if it exists already.")
-rec_parser.add_argument('--debug', action='store_true', default=False,
-                        help='Enable debug mode: save full SignalR message, '
-                             'not just the data.')
-rec_parser.add_argument('--timeout', type=int, default=60,
-                        help='Timeout in seconds after which the client will '
-                             'automatically exit if no data is received.')
-rec_parser.set_defaults(func=save)
-
-conv_parser.add_argument("input", type=str, help='Input file name')
-conv_parser.add_argument("output", type=str, help='Output file name')
-conv_parser.set_defaults(func=convert)
-
-if not len(sys.argv) > 1:
-    # user did not provide any arguments
-    parser.print_help()
-    parser.exit(1)
-
-args = parser.parse_args()
-args.func(args)  # call function associated with subparser
-
-
-"""
-
 import logging
-from datetime import datetime
 
 from signalf1 import SignalF1
 
 
 def main(args=None) -> None:
-  logger = logging.getLogger()
-  logger.setLevel(logging.DEBUG)
-  timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-  client = SignalF1(file_name=f"./data/raw/{timestamp}.log", debug=False)
+  parser = argparse.ArgumentParser(prog="signalf1", description="Record F1 live timing telemetry data")
+  parser.add_argument("-o", "--output", type=str, default=None, help="Output file path (default: stdout)")
+  parser.add_argument("-a", "--append", action="store_true", help="Append to file instead of overwriting")
+  parser.add_argument("-t", "--timeout", type=int, default=60, help="Timeout in seconds (0 = no timeout)")
+  parser.add_argument("--debug", action="store_true", help="Save raw SignalR messages")
+  parsed = parser.parse_args(args)
+
+  logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s: %(message)s")
+
+  file_name = parsed.output
+
+  file_mode = "a" if parsed.append else "w"
+
+  client = SignalF1(file_name=file_name, file_mode=file_mode, debug=parsed.debug, timeout=parsed.timeout)
   client.start()
+
+
+if __name__ == "__main__":
+  main()

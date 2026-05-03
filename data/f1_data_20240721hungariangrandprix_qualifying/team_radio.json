@@ -1,0 +1,395 @@
+{
+  "Captures": [
+    {
+      "Utc": "2024-07-20T14:00:45.002Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_160016.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:01:17.01Z",
+      "RacingNumber": "22",
+      "Path": "TeamRadio/YUKTSU01_22_20240720_160048.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:01:17.2888843Z",
+      "RacingNumber": "20",
+      "Path": "TeamRadio/KEVMAG01_20_20240720_160106.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:01:50.685Z",
+      "RacingNumber": "77",
+      "Path": "TeamRadio/VALBOT01_77_20240720_160116.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:01:50.7149254Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_160126.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:02:25.152Z",
+      "RacingNumber": "10",
+      "Path": "TeamRadio/PIEGAS01_10_20240720_160151.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:03:30.4750926Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_160256.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:03:30.635069Z",
+      "RacingNumber": "63",
+      "Path": "TeamRadio/GEORUS01_63_20240720_160320.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:04:05.349Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_160322.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:05:11.01Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_160451.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:06:17.1153158Z",
+      "RacingNumber": "55",
+      "Path": "TeamRadio/CARSAI01_55_20240720_160547.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:07:56.235Z",
+      "RacingNumber": "2",
+      "Path": "TeamRadio/LOGSAR01_2_20240720_160731.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:08:30.883Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_160757.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:09:02.6692878Z",
+      "RacingNumber": "11",
+      "Path": "TeamRadio/SERPER01_11_20240720_160857.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:10:08.747Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_160936.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:10:41.845Z",
+      "RacingNumber": "22",
+      "Path": "TeamRadio/YUKTSU01_22_20240720_161011.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:11:48.016Z",
+      "RacingNumber": "1",
+      "Path": "TeamRadio/MAXVER01_1_20240720_161110.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:23:22.554Z",
+      "RacingNumber": "63",
+      "Path": "TeamRadio/GEORUS01_63_20240720_162251.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:24:27.646Z",
+      "RacingNumber": "63",
+      "Path": "TeamRadio/GEORUS01_63_20240720_162352.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:24:27.646Z",
+      "RacingNumber": "63",
+      "Path": "TeamRadio/GEORUS01_63_20240720_162356.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:25:02.703Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_162435.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:27:13.693Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_162636.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:29:59.01Z",
+      "RacingNumber": "3",
+      "Path": "TeamRadio/DANRIC01_3_20240720_162948.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:32:13.515Z",
+      "RacingNumber": "63",
+      "Path": "TeamRadio/GEORUS01_63_20240720_163138.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:32:13.515Z",
+      "RacingNumber": "3",
+      "Path": "TeamRadio/DANRIC01_3_20240720_163148.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:32:44.9211944Z",
+      "RacingNumber": "22",
+      "Path": "TeamRadio/YUKTSU01_22_20240720_163218.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:33:18.649Z",
+      "RacingNumber": "2",
+      "Path": "TeamRadio/LOGSAR01_2_20240720_163255.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:34:24.1364857Z",
+      "RacingNumber": "63",
+      "Path": "TeamRadio/GEORUS01_63_20240720_163344.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:39:55.1362511Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_163951.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:40:29.376Z",
+      "RacingNumber": "18",
+      "Path": "TeamRadio/LANSTR01_18_20240720_164013.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:41:35.089Z",
+      "RacingNumber": "55",
+      "Path": "TeamRadio/CARSAI01_55_20240720_164124.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:42:09.566Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_164152.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:43:14.689Z",
+      "RacingNumber": "2",
+      "Path": "TeamRadio/LOGSAR01_2_20240720_164306.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:43:14.689Z",
+      "RacingNumber": "2",
+      "Path": "TeamRadio/LOGSAR01_2_20240720_164309.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:43:49.765Z",
+      "RacingNumber": "14",
+      "Path": "TeamRadio/FERALO01_14_20240720_164336.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:44:21.6037523Z",
+      "RacingNumber": "23",
+      "Path": "TeamRadio/ALEALB01_23_20240720_164359.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:45:27.328Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_164456.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:46:01.179Z",
+      "RacingNumber": "55",
+      "Path": "TeamRadio/CARSAI01_55_20240720_164551.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:46:35.088Z",
+      "RacingNumber": "55",
+      "Path": "TeamRadio/CARSAI01_55_20240720_164604.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:48:15.278Z",
+      "RacingNumber": "27",
+      "Path": "TeamRadio/NICHUL01_27_20240720_164759.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:49:20.451Z",
+      "RacingNumber": "27",
+      "Path": "TeamRadio/NICHUL01_27_20240720_164842.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:50:25.571Z",
+      "RacingNumber": "27",
+      "Path": "TeamRadio/NICHUL01_27_20240720_165012.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:53:43.5252661Z",
+      "RacingNumber": "27",
+      "Path": "TeamRadio/NICHUL01_27_20240720_165305.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:53:43.5252661Z",
+      "RacingNumber": "77",
+      "Path": "TeamRadio/VALBOT01_77_20240720_165337.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:54:17.011Z",
+      "RacingNumber": "23",
+      "Path": "TeamRadio/ALEALB01_23_20240720_165354.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:54:51.191Z",
+      "RacingNumber": "2",
+      "Path": "TeamRadio/LOGSAR01_2_20240720_165411.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:59:46.755Z",
+      "RacingNumber": "1",
+      "Path": "TeamRadio/MAXVER01_1_20240720_165915.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:59:46.755Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_165927.mp3"
+    },
+    {
+      "Utc": "2024-07-20T14:59:47.01Z",
+      "RacingNumber": "1",
+      "Path": "TeamRadio/MAXVER01_1_20240720_165932.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:00:21.831Z",
+      "RacingNumber": "55",
+      "Path": "TeamRadio/CARSAI01_55_20240720_170012.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:00:53.4962243Z",
+      "RacingNumber": "14",
+      "Path": "TeamRadio/FERALO01_14_20240720_170040.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:02:02.057Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_170146.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:03:07.238Z",
+      "RacingNumber": "1",
+      "Path": "TeamRadio/MAXVER01_1_20240720_170238.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:03:39.8959787Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_170330.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:03:39.8959787Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_170334.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:04:13.408Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_170338.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:04:47.412Z",
+      "RacingNumber": "22",
+      "Path": "TeamRadio/YUKTSU01_22_20240720_170428.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:05:20.061Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_170451.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:06:27.659Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_170550.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:10:18.078Z",
+      "RacingNumber": "22",
+      "Path": "TeamRadio/YUKTSU01_22_20240720_170950.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:12:29.2166688Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_171153.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:14:41.5294011Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_171407.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:15:48.764Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_171524.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:15:48.764Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_171541.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:17:28.969Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_171703.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:19:06.0511099Z",
+      "RacingNumber": "3",
+      "Path": "TeamRadio/DANRIC01_3_20240720_171843.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:20:49.372Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_172030.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:22:26.3570798Z",
+      "RacingNumber": "3",
+      "Path": "TeamRadio/DANRIC01_3_20240720_172201.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:22:59.686Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_172231.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:17.571944Z",
+      "RacingNumber": "3",
+      "Path": "TeamRadio/DANRIC01_3_20240720_172554.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:17.832Z",
+      "RacingNumber": "16",
+      "Path": "TeamRadio/CHALEC01_16_20240720_172559.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:17.832Z",
+      "RacingNumber": "3",
+      "Path": "TeamRadio/DANRIC01_3_20240720_172559.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:17.832Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_172601.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:18.01Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_172605.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:18.016936Z",
+      "RacingNumber": "3",
+      "Path": "TeamRadio/DANRIC01_3_20240720_172606.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:51.3968725Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_172634.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:26:51.3968725Z",
+      "RacingNumber": "4",
+      "Path": "TeamRadio/LANNOR01_4_20240720_172645.mp3"
+    },
+    {
+      "Utc": "2024-07-20T15:28:31.012Z",
+      "RacingNumber": "81",
+      "Path": "TeamRadio/OSCPIA01_81_20240720_172750.mp3"
+    }
+  ],
+  "_timestamp": "﻿"
+}

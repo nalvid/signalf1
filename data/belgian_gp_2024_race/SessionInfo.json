@@ -1,0 +1,27 @@
+﻿{
+    "Meeting": {
+        "Key": 1242,
+        "Name": "Belgian Grand Prix",
+        "OfficialName": "FORMULA 1 ROLEX BELGIAN GRAND PRIX 2024",
+        "Location": "Spa-Francorchamps",
+        "Country": {
+            "Key": 16,
+            "Code": "BEL",
+            "Name": "Belgium"
+        },
+        "Circuit": {
+            "Key": 7,
+            "ShortName": "Spa-Francorchamps"
+        }
+    },
+    "ArchiveStatus": {
+        "Status": "Complete"
+    },
+    "Key": 9574,
+    "Type": "Race",
+    "Name": "Race",
+    "StartDate": "2024-07-28T15:00:00",
+    "EndDate": "2024-07-28T17:00:00",
+    "GmtOffset": "02:00:00",
+    "Path": "2024/2024-07-28_Belgian_Grand_Prix/2024-07-28_Race/"
+}

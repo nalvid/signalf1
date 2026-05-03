@@ -4,7 +4,7 @@ description = "F1 SignalR telemetry ingestion."
 dynamic = ["readme", "version"]
 requires-python = ">=3.12"
 license = { text = "MIT" }
-dependencies = ["aiohttp", "python-dotenv", "websockets==11.0.1", "requests", "numpy", "pandas"]
+dependencies = ["requests", "websockets>=14.0"]
 
 [project.scripts]
 signalf1 = "signalf1.__main__:main"

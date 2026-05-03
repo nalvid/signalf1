@@ -1,0 +1,28 @@
+{
+  "Meeting": {
+    "Key": 1241,
+    "Name": "Hungarian Grand Prix",
+    "OfficialName": "FORMULA 1 HUNGARIAN GRAND PRIX 2024",
+    "Location": "Budapest",
+    "Country": {
+      "Key": 14,
+      "Code": "HUN",
+      "Name": "Hungary"
+    },
+    "Circuit": {
+      "Key": 4,
+      "ShortName": "Hungaroring"
+    }
+  },
+  "ArchiveStatus": {
+    "Status": "Complete"
+  },
+  "Key": 9562,
+  "Type": "Qualifying",
+  "Name": "Qualifying",
+  "StartDate": "2024-07-20T16:00:00",
+  "EndDate": "2024-07-20T17:00:00",
+  "GmtOffset": "02:00:00",
+  "Path": "2024/2024-07-21_Hungarian_Grand_Prix/2024-07-20_Qualifying/",
+  "_timestamp": "﻿"
+}

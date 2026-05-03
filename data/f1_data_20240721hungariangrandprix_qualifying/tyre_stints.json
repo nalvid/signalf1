@@ -1,0 +1,745 @@
+{
+  "Stints": {
+    "1": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 9,
+        "StartLaps": 6
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 6,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 2,
+        "StartLaps": 0
+      }
+    ],
+    "2": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 4,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 6,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      }
+    ],
+    "3": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 4,
+        "StartLaps": 2
+      }
+    ],
+    "4": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 2,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 5,
+        "StartLaps": 2
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 4,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 7,
+        "StartLaps": 5
+      }
+    ],
+    "10": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      }
+    ],
+    "11": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      }
+    ],
+    "14": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 4,
+        "StartLaps": 1
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      }
+    ],
+    "16": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 10,
+        "StartLaps": 7
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 5,
+        "StartLaps": 4
+      }
+    ],
+    "18": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 2
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 4,
+        "StartLaps": 3
+      }
+    ],
+    "20": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 0,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 6,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 4,
+        "StartLaps": 1
+      }
+    ],
+    "22": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 9,
+        "StartLaps": 6
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      }
+    ],
+    "23": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 8,
+        "StartLaps": 5
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      }
+    ],
+    "24": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      }
+    ],
+    "27": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 8,
+        "StartLaps": 5
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 2
+      }
+    ],
+    "31": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      }
+    ],
+    "44": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 9,
+        "StartLaps": 5
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 12,
+        "StartLaps": 9
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 2,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 5,
+        "StartLaps": 3
+      }
+    ],
+    "55": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 10,
+        "StartLaps": 6
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 13,
+        "StartLaps": 10
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 6,
+        "StartLaps": 3
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 2,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 3
+      }
+    ],
+    "63": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 4,
+        "StartLaps": 0
+      }
+    ],
+    "77": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 8,
+        "StartLaps": 2
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 8,
+        "StartLaps": 5
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      }
+    ],
+    "81": [
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 6,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 1,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 4,
+        "StartLaps": 1
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "1",
+        "TotalLaps": 6,
+        "StartLaps": 4
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 3,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "true",
+        "TyresNotChanged": "0",
+        "TotalLaps": 2,
+        "StartLaps": 0
+      },
+      {
+        "Compound": "SOFT",
+        "New": "false",
+        "TyresNotChanged": "0",
+        "TotalLaps": 5,
+        "StartLaps": 3
+      }
+    ]
+  },
+  "_timestamp": "﻿"
+}

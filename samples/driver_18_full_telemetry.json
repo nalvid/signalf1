@@ -1,0 +1,56 @@
+[
+  {
+    "log_timestamp": "2025-08-02T12:34:40.171000",
+    "utc_timestamp": "2025-08-02T10:34:36.5460676Z",
+    "rpm": 10104,
+    "speed_kmh": 157,
+    "gear": 3,
+    "throttle_percent": 69,
+    "brake_percent": 0,
+    "drs_status": 8,
+    "all_channels": {
+      "0": 10104,
+      "2": 157,
+      "3": 3,
+      "4": 69,
+      "5": 0,
+      "45": 8
+    }
+  },
+  {
+    "log_timestamp": "2025-08-02T12:34:40.171000",
+    "utc_timestamp": "2025-08-02T10:34:36.9460078Z",
+    "rpm": 9998,
+    "speed_kmh": 162,
+    "gear": 4,
+    "throttle_percent": 0,
+    "brake_percent": 0,
+    "drs_status": 8,
+    "all_channels": {
+      "0": 9998,
+      "2": 162,
+      "3": 4,
+      "4": 0,
+      "5": 0,
+      "45": 8
+    }
+  },
+  {
+    "log_timestamp": "2025-08-02T12:34:40.171000",
+    "utc_timestamp": "2025-08-02T10:34:37.3069548Z",
+    "rpm": 9551,
+    "speed_kmh": 154,
+    "gear": 4,
+    "throttle_percent": 0,
+    "brake_percent": 100,
+    "drs_status": 8,
+    "all_channels": {
+      "0": 9551,
+      "2": 154,
+      "3": 4,
+      "4": 0,
+      "5": 100,
+      "45": 8
+    }
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Status": "1",
+    "Message": "AllClear",
+    "_timestamp": "﻿00:00:00.000"
+  },
+  {
+    "Status": "2",
+    "Message": "Yellow",
+    "_timestamp": "00:20:33.822"
+  },
+  {
+    "Status": "1",
+    "Message": "AllClear",
+    "_timestamp": "00:20:50.924"
+  },
+  {
+    "Status": "2",
+    "Message": "Yellow",
+    "_timestamp": "00:25:47.530"
+  },
+  {
+    "Status": "5",
+    "Message": "Red",
+    "_timestamp": "00:25:55.553"
+  },
+  {
+    "Status": "1",
+    "Message": "AllClear",
+    "_timestamp": "00:33:31.551"
+  },
+  {
+    "Status": "2",
+    "Message": "Yellow",
+    "_timestamp": "01:23:15.015"
+  },
+  {
+    "Status": "5",
+    "Message": "Red",
+    "_timestamp": "01:23:27.216"
+  },
+  {
+    "Status": "1",
+    "Message": "AllClear",
+    "_timestamp": "01:32:29.907"
+  }
+]
