@@ -150,7 +150,7 @@ def get_session_examples():
 
 
 if __name__ == "__main__":
-    print("🏎️  F1 OFFICIAL TELEMETRY DOWNLOADER")
+    print("F1 OFFICIAL TELEMETRY DOWNLOADER")
     print("Based on: https://livef1.goktugocal.com/livetimingf1/data_topics.html")
     print()
     
@@ -158,7 +158,7 @@ if __name__ == "__main__":
     examples = get_session_examples()
     
     # Try downloading Belgian GP 2024 race data
-    print("🔄 Attempting to download Belgian GP 2024 Race data...")
+    print("Attempting to download Belgian GP 2024 Race data...")
     example = examples["2024 Belgian GP Race"]
     
     downloaded = download_f1_telemetry(
@@ -169,8 +169,8 @@ if __name__ == "__main__":
     )
     
     if downloaded:
-        print(f"\n✅ SUCCESS! Check the 'belgian_gp_2024_race' folder for telemetry data.")
-        print(f"💡 TIP: Look for CarData_z and Position_z files - these contain the detailed telemetry!")
+        print(f"\nSUCCESS! Check the 'belgian_gp_2024_race' folder for telemetry data.")
+        print(f"TIP: Look for CarData_z and Position_z files - these contain the detailed telemetry!")
     else:
-        print(f"\n❌ No data downloaded. The session may not be publicly available.")
-        print(f"💡 TIP: Try different session paths or check if the race has happened yet.")
+        print(f"\nFAILURE! No data downloaded. The session may not be publicly available.")
+        print(f"TIP: Try different session paths or check if the race has happened yet.")
